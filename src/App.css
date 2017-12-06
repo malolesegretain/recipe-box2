@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.recipeFrame {
+  min-height: 60px;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container {
+  margin-top: 15px;
+}
+
+.panelGroup {
+  margin-top: 15px;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.editDeleteButtons {
+  padding-top: 10px;
+}
